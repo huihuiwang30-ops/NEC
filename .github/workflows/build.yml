@@ -1,0 +1,7 @@
+name: Build Mod
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    uses: GTNewHorizons/GTNH-Actions-Workflows/.github/workflows/build-and-test.yml@master
+    secrets: inherit
